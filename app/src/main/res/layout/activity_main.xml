@@ -12,9 +12,7 @@
     android:orientation="vertical"
     tools:context="com.example.android.meditationapp.MainActivity">
 
-    <LinearLayout
-        style="@style/CategoryStyle"
-        android:onClick="openRainList">
+    <LinearLayout style="@style/CategoryStyle">
 
         <ImageView
             style="@style/CategoryImageStyle"
@@ -27,9 +25,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/CategoryStyle"
-        android:onClick="openForestList">
+    <LinearLayout style="@style/CategoryStyle">
 
         <ImageView
             style="@style/CategoryImageStyle"
@@ -42,9 +38,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/CategoryStyle"
-        android:onClick="openBirdsList">
+    <LinearLayout style="@style/CategoryStyle">
 
         <ImageView
             style="@style/CategoryImageStyle"
@@ -57,9 +51,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/CategoryStyle"
-        android:onClick="openOceanList">
+    <LinearLayout style="@style/CategoryStyle">
 
         <ImageView
             style="@style/CategoryImageStyle"
@@ -72,9 +64,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/CategoryStyle"
-        android:onClick="openOmList">
+    <LinearLayout style="@style/CategoryStyle">
 
         <ImageView
             style="@style/CategoryImageStyle"
