@@ -1,83 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-<LinearLayout
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:context="com.example.android.meditationapp.MainActivity">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.meditationapp.MainActivity">
 
-    <LinearLayout style="@style/CategoryStyle">
+        <LinearLayout style="@style/CategoryStyle">
 
-        <ImageView
-            style="@style/CategoryImageStyle"
-            android:src="@drawable/rain_drops"/>
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/rain_drops" />
 
-        <TextView
-            android:id="@+id/rain"
-            style="@style/CategoryTextStyle"
-            android:text="@string/category_rain" />
+            <TextView
+                android:id="@+id/rain"
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_rain" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/CategoryStyle">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/tree" />
+
+            <TextView
+                android:id="@+id/forest"
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_forest" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/CategoryStyle">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/parrot" />
+
+            <TextView
+                android:id="@+id/birds"
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_birds" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/CategoryStyle">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/ocean" />
+
+            <TextView
+                android:id="@+id/ocean"
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_ocean" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/CategoryStyle">
+
+            <ImageView
+                style="@style/CategoryImageStyle"
+                android:src="@drawable/om" />
+
+            <TextView
+                android:id="@+id/om"
+                style="@style/CategoryTextStyle"
+                android:text="@string/category_om" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
-
-    <LinearLayout style="@style/CategoryStyle">
-
-        <ImageView
-            style="@style/CategoryImageStyle"
-            android:src="@drawable/tree"/>
-
-        <TextView
-            android:id="@+id/forest"
-            style="@style/CategoryTextStyle"
-            android:text="@string/category_forest" />
-
-    </LinearLayout>
-
-    <LinearLayout style="@style/CategoryStyle">
-
-        <ImageView
-            style="@style/CategoryImageStyle"
-            android:src="@drawable/parrot"/>
-
-        <TextView
-            android:id="@+id/birds"
-            style="@style/CategoryTextStyle"
-            android:text="@string/category_birds" />
-
-    </LinearLayout>
-
-    <LinearLayout style="@style/CategoryStyle">
-
-        <ImageView
-            style="@style/CategoryImageStyle"
-            android:src="@drawable/ocean"/>
-
-        <TextView
-            android:id="@+id/ocean"
-            style="@style/CategoryTextStyle"
-            android:text="@string/category_ocean" />
-
-    </LinearLayout>
-
-    <LinearLayout style="@style/CategoryStyle">
-
-        <ImageView
-            style="@style/CategoryImageStyle"
-            android:src="@drawable/om"/>
-
-        <TextView
-            android:id="@+id/om"
-            style="@style/CategoryTextStyle"
-            android:text="@string/category_om" />
-
-    </LinearLayout>
-
-
-</LinearLayout>
 
 </ScrollView>

@@ -40,7 +40,6 @@
     </style>
 
 
-
     <!-- Songs boxes style (Song name + play = box). -->
     <style name="SongStyle">
         <item name="android:layout_width">match_parent</item>
