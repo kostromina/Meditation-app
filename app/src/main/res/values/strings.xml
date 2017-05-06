@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Stop. Breathe. Meditate</string>
+
+
+    <!-- Category name for rain [CHAR LIMIT=20] -->
+    <string name="category_rain">Rain</string>
+
+    <!-- Category name for forest [CHAR LIMIT=20] -->
+    <string name="category_forest">Forest</string>
+
+    <!-- Category name for birds [CHAR LIMIT=20] -->
+    <string name="category_birds">Birds</string>
+
+    <!-- Category name for ocean [CHAR LIMIT=20] -->
+    <string name="category_ocean">Ocean</string>
+
+    <!-- Category name for om[CHAR LIMIT=20] -->
+    <string name="category_om">Om mantra</string>
+
+
+    <!-- Playlist Numbers [CHAR LIMIT=20] -->
+    <string name="playlist_number_1">1.</string>
+    <string name="playlist_number_2">2.</string>
+    <string name="playlist_number_3">3.</string>
+    <string name="playlist_number_4">4.</string>
+
+    <!-- Playlist names with minutes[CHAR LIMIT=20] -->
+    <string name="playlist_5_min">5 min</string>
+    <string name="playlist_8_min">8 min</string>
+    <string name="playlist_15_min">15 min</string>
+    <string name="playlist_30_min">30 min</string>
+
+</resources>

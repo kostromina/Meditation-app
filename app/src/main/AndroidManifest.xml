@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.meditationapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/om"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RainActivity"
+            android:label="@string/category_rain" />
+        <activity
+            android:name=".ForestActivity"
+            android:label="@string/category_forest" />
+        <activity
+            android:name=".BirdsActivity"
+            android:label="@string/category_birds" />
+        <activity
+            android:name=".OceanActivity"
+            android:label="@string/category_ocean" />
+        <activity
+            android:name=".OmActivity"
+            android:label="@string/category_om" />
+    </application>
+
+</manifest>
