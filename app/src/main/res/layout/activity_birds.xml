@@ -18,6 +18,10 @@
             android:layout_margin="10dp"
             android:src="@drawable/parrot" />
 
+        <TextView
+            style="@style/ActivityDescriptionStyle"
+            android:text="@string/activity_description_choose_composition" />
+
         <LinearLayout style="@style/SongStyle">
 
             <TextView

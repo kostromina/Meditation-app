@@ -29,5 +29,7 @@
     <string name="playlist_8_min">8 min</string>
     <string name="playlist_15_min">15 min</string>
     <string name="playlist_30_min">30 min</string>
+    <string name="activity_description_choose_composition">Choose audio composition duration and play it.
+        This activity will use MediaPlayer API to play audio files.</string>
 
 </resources>
